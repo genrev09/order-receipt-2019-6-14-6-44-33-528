@@ -1,11 +1,11 @@
 package org.katas.refactoring;
 
-public class LineItem {
+public class OrderedItem {
     private String description;
     private double price;
     private int quantity;
 
-    public LineItem(String description, double price, int quantity) {
+    public OrderedItem(String description, double price, int quantity) {
         this.description = description;
         this.price = price;
         this.quantity = quantity;
